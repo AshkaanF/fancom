@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --partition=short        	### Partition (like a queue in PBS)
-#SBATCH --job-name=fancom     ### Job Name
-#SBATCH --output=megahit.out         	### File in which to store job output
-#SBATCH --error=megahit.err          	### File in which to store job error messages
+#SBATCH --job-name=fancom     		### Job Name
+#SBATCH --output=fancom.out         ### File in which to store job output
+#SBATCH --error=fancom.err          ### File in which to store job error messages
 #SBATCH --time=0-23:59:59       	### Wall clock time limit in Days-HH:MM:SS
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
